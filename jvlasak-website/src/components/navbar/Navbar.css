@@ -1,0 +1,44 @@
+.nav-style button {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #f77f00;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+}
+
+.nav-style button:hover {
+    display: inline-block;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #eae2b7;
+    padding: 20px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    border: none;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
+a:link {
+    text-decoration: none;
+    color: #003049;
+}
+a:visited {
+    text-decoration: none;
+    color: #003049;
+}
+
+ul {
+    width: 865px;
+    margin-top: 20px;
+    margin-left: calc(100% - 910px);
+}
+
+.nav-wrapper {
+    margin-top: 10px;
+}
